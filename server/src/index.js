@@ -4,7 +4,7 @@ const utils = require("./utils.js");
 const tmi = require("tmi.js");
 const mincraft = require("minecraft-server-util");
 
-const { USERNAME, PASSWORD, CHANNELS, MCRCONHOST, MCRCONPORT, MCRCONPASSWORD } =
+const { CHANNELS, MCRCONHOST, MCRCONPORT, MCRCONPASSWORD } =
   process.env;
 
 // console
