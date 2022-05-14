@@ -23,8 +23,7 @@ const connect = async () => {
 const twitchClient = new tmi.Client({
   options: { debug: true },
   identity: {
-    username: USERNAME,
-    password: PASSWORD,
+    username: "justin47",
   },
   channels: [CHANNELS],
 });
